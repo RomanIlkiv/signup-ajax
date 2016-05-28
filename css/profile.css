@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@font-face {
+    font-family: "Prof";
+    src: url(../fonts/profile.otf);
+}
+
+
+#page {
+	position: absolute;
+	margin: 150px 0 0 20.2%;
+    background: rgb(221, 221, 221);
+	padding: 15px;
+	border: 2px solid #676767;
+	border-radius: 10px;
+	width: 780px;
+}
+
+#page img {
+    width: 120px; 
+    height: 150px;
+    float: left;
+}
+
+.login {
+    float: left;
+    font-family: 'Prof', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin: -1px 10px;
+	width: 600px;
+}
+
+#page form {
+    float: left;
+    margin-top: 35px;
+    margin-left: -110px;
+}
+
+#page form input {
+    margin-left: 20px;
+}
+
+#avatar input {
+	float: left;
+}
+
+/*Стилі для кнопки виходу*/
+#logout {
+	margin-top: 0;
+	right: 15px;
+	position: absolute;
+	width: 80px;
+	text-decoration: none;
+	text-align:center;
+}
+
+#logout:hover {
+	text-decoration: underline;
+}
+
+.send_avatar {
+	background-color: darkgrey;
+	padding: 3px 11px;
+	margin-top: 4px;
+	border-radius: 7px;
+	font-family: "Prof",sans-serif;
+}
+
+/*Стилі для інпутів в профілі*/
+.input_change {
+	margin-bottom: 10px;
+	margin-right: 200px;
+	width: 400px;
+}
+
+/*Стиль для блоку інформації, коли в профіль заходить не авторизований користувач*/
+.ban_profile {
+	margin: 140px 305px;
+}

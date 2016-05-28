@@ -1,0 +1,103 @@
+/*Підключаєм шрифти*/
+
+@font-face {
+    font-family: "Valentine";
+    src: url(../fonts/Valentine.ttf);
+}
+
+@font-face {
+    font-family: "Menu";
+    src: url(../fonts/Menu.ttf);
+}
+
+/*Стилі для меню*/
+#menu {
+	width: 100%;
+	float: left;
+}
+
+.menu {
+    background: #fde6e6;
+	border: 1px solid black;
+	-webkit-border: 1px solid black;
+	-o-border: 1px solid black;
+	-moz-border: 1px solid black;
+	border-top: 0;
+    border-radius: 0 0 20px 20px;
+	-webkit-border-radius: 0 0 20px 20px;
+	-o-border-radius: 0 0 20px 20px;
+	-moz-border-radius: 0 0 20px 20px;
+    height: 75px;
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	opacity: 0.95;
+}
+
+.menu:hover {
+    opacity: 1;
+    transition: 0.7s ease;
+	-webkit-transition: 0.7s ease;
+	-o-transition: 0.7s ease;
+	-moz-transition: 0.7s ease;
+}
+
+.list {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	text-align: center;
+	width: 100%;
+}
+
+.list li {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 46px;
+	font-family: "Menu", sans-serif;
+	text-shadow: 1px 1px 1px black;
+}
+
+.list li  a {
+    color: #fa0b1d;
+	text-decoration: none;
+}
+
+.list li  a:hover {
+    color: black;   
+}
+
+/*Стилі для пункту вибору мови*/
+
+#lang {
+	font-size: 23px;
+	color: #fa0b1d;
+	text-shadow: 1px 1px 1px black;
+	right: 200px;
+}
+
+#en, #ua {
+	float: right;
+
+}
+
+#en {
+	margin-left: 8px;
+}
+
+#lang p img {
+	width: 25px;
+	height: 25px;
+	margin-bottom: -6px;
+	margin-right: 3px;
+	cursor: pointer;
+}
+
+.star {
+	font-family: "Prof", sans-serif;
+}
+
+.require {
+	float: left;
+	margin-top: 35px;
+}
